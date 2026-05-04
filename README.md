@@ -27,7 +27,7 @@ This repository contains a research-focused implementation of **FLDQN** (Federat
 ├── explanation.md           # Detailed algorithm walkthrough
 ├── GoCJ_Dataset_100.txt     # GoCJ dataset (100 tasks)
 ├── GoCJ_Dataset_500.txt     # GoCJ dataset (500 tasks)
-├── GoCJ_Dataset_1000 (2).txt# GoCJ dataset (1000 tasks)
+├── GoCJ_Dataset_1000 (2).txt # GoCJ dataset (1000 tasks)
 └── README.md
 ```
 
@@ -72,6 +72,7 @@ These visualize makespan, energy, SLA violations, rejection rate, and throughput
 - The script is a direct conversion from a Colab notebook and runs end‑to‑end experiments by default.
 - Training can be compute‑intensive; reduce `NUM_EPISODES` for faster runs.
 - Dataset paths must be updated for local execution.
+- The 1000‑task dataset keeps its original filename: `GoCJ_Dataset_1000 (2).txt`.
 
 ## Documentation
 For a detailed, step‑by‑step explanation of the algorithms and formulas, see `explanation.md`.
